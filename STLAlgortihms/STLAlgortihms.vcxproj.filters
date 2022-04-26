@@ -20,11 +20,14 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SearchAlgorithms\Linear.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="CountingAndFinding.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="SearchAlgorithms\BinarySearch.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Sorting.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Comparing and Accumulating.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

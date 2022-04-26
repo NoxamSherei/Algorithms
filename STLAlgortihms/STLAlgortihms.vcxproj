@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c12f4a75-d83e-4f5c-a92b-d77f7d2bf534}</ProjectGuid>
-    <RootNamespace>Algorithms</RootNamespace>
+    <ProjectGuid>{e7a376bb-c612-49ba-886f-8eac8ab52128}</ProjectGuid>
+    <RootNamespace>STLAlgortihms</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,8 +142,9 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SearchAlgorithms\BinarySearch.h" />
-    <ClInclude Include="SearchAlgorithms\Linear.h" />
+    <ClInclude Include="Comparing and Accumulating.h" />
+    <ClInclude Include="CountingAndFinding.h" />
+    <ClInclude Include="Sorting.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

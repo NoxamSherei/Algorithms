@@ -7,11 +7,14 @@ void CountingAndFindingRun() {
 	std::vector<int> V1 = { 1,1,1,0,0,1,0,0,0,1 };
 	std::vector<int> V2 = { 1,2,4,1,7,6,3,4,9,7 };
 	std::string S1 = "Hello world, this is sentence for testing STL algorithm";
+	int V3[]{ 1,1,1,0,0,1,0,0,0,1 };
 	//Counting
 	int target = 1;
+	
 	int resoult1 = count(V1.begin(), V1.end(), target);
 	//container.begin/end() is member function avaliable for all collection in labrery like vector, string, map
 	int resoult2 = count(begin(V1), end(V1), target);
+	int resoult3 = std::count(std::begin(V3), std::end(V3), target);
 	//begin/end(container) is nonmember calls  begin and end if it exist
 	//works for C-Style array 
 	//you can write a free functrion for a collection without member begin() and end()

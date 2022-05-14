@@ -144,6 +144,7 @@
   <ItemGroup>
     <ClInclude Include="Comparing and Accumulating.h" />
     <ClInclude Include="CountingAndFinding.h" />
+    <ClInclude Include="ManipulationColection.h" />
     <ClInclude Include="Sorting.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

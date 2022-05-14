@@ -2,6 +2,7 @@
 #include "CountingAndFinding.h"
 #include "Sorting.h"
 #include "Comparing and Accumulating.h"
+#include "ManipulationColection.h"
 /* H good to know 
 algorithm
 vector, array, list, stack, map, queue
@@ -13,9 +14,11 @@ complex cmath
 regex chrono
 */
 int main() {
-	Compare();
+	Copying();
+	Filling();
+	/*Compare();
 	Accumulating();
 	Sorting();
-	CountingAndFindingRun();
+	CountingAndFindingRun();*/
 	return 0;
 }

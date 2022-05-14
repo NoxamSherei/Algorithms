@@ -29,5 +29,8 @@
     <ClInclude Include="Comparing and Accumulating.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="ManipulationColection.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
